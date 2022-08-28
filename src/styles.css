@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card{
+  width: 60%;
+  padding: 10px;
+  box-shadow: 8px 8px 8px rgba(0,0,0, .2);
+  margin: 200px auto;
+  border-radius: 8px;
+  background: #fff; 
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+.card button{
+  border-radius: 50px;
+  padding: 10px;
+  border: none;
+  background: rgb(215, 28, 159);
+  size: fit-content;
+  align-items: center;
+}
+
+.button-container{
+  display:flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.quotation-mark{
+  font-size: 100px;
+  margin: 0; 
+  width: fit-content;
+  padding: 10px; 
+  padding-right: 20px;
+}
+
+.quote-content{
+  display: flex; 
+}
+
+
+.quote-text{
+  align-self: center;
+  color: rgb(84, 84, 84);
+  font-family: 'Lobster';
+  font-size: 32px;
+  line-height: 30px;
+}
+
+.author-text{
+  text-align: right;
+  padding-right: 10px;
+  color: black;
+  font-size: 22px;
+}
