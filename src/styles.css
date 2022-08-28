@@ -11,7 +11,7 @@
   padding: 10px;
   box-shadow: 8px 8px 8px rgba(0,0,0, .2);
   margin: 200px auto;
-  border-radius: 8px;
+  border-radius: 20px;
   background: #fff; 
   color: black;
   display: flex;
@@ -27,6 +27,7 @@
   background: rgb(215, 28, 159);
   size: fit-content;
   align-items: center;
+  cursor: pointer;
 }
 
 .button-container{

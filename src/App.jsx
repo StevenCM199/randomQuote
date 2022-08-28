@@ -19,9 +19,8 @@ function App() {
   
 
   function changeIndex() {
-    setIndex(randomIndex);
-    setColor(randomColor);
-    console.log(randomIndex); 
+    setIndex(Math.floor(Math.random() * quotes.length));
+    setColor(Math.floor(Math.random() * colorArray.length));
   }
 
 
@@ -29,7 +28,7 @@ function App() {
     <div className="App">
       <div className="card" style={{color: colorArray[randomColor]}}>
         <div className="quote-content">
-          <h1 className="quotation-mark"> <i class="fa-solid fa-quote-left"></i>
+          <h1 className="quotation-mark"> <i className="fa-solid fa-quote-left"></i>
           </h1>
           <p className="quote-text">
             {quotes[randomIndex].quote}
