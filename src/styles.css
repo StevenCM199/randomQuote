@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.card{
+.quoteBox{
   width: 60%;
   padding: 10px;
   box-shadow: 8px 8px 8px rgba(0,0,0, .2);
@@ -16,18 +16,16 @@
   color: black;
   display: flex;
   flex-direction: column;
-
 }
 
-
-.card button{
+.quoteBox button{
   border-radius: 50px;
   padding: 10px;
   border: none;
-  background: rgb(215, 28, 159);
   size: fit-content;
   align-items: center;
   cursor: pointer;
+  font-size: 20px;
 }
 
 .button-container{
